@@ -31,3 +31,21 @@ body {
     text-wrap: balance;
   }
 }
+
+#animating-on-scroll:target {
+  transform: translateY(20px);
+  animation: nothing 1s ease-out forwards;
+  animation-delay: 2s; 
+}
+
+@keyframes nothing {
+  from {
+    transform: translateY(20px);
+    color: red
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+
+  }
+}
