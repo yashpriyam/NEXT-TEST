@@ -8,7 +8,6 @@ const Test = () => {
         <>
             <div>Test</div>
             
-            {/* Adding a placeholder image from Unsplash */}
             <Image 
                 src="https://images.unsplash.com/photo-1593642634367-d91a135587b5"
                 alt="Placeholder image"
